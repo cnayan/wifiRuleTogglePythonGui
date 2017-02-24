@@ -12,8 +12,8 @@ This app toggles the state, on / off, of a rule that you configure on your route
 # How to use
 If you wish to use this app, then you must configure these 4 things in 'wifiRuleTogglePythonGui.py' file:
 <ul>
-	<li>RULE_INDEX_STRING = "-2"</li>
-	<li>IP_STRING = "192.168.0.1"</li>
+	<li>RULE_INDEX_STRING: This is the index of the firewall (traffic) rule that you have already must have configured on your router. Example: "-2"</li>
+	<li>IP_STRING: This points to the router's IP. Example: "192.168.0.1"</li>
 	<li>USER_NAME = "<< Your User Name >>"</li>
 	<li>USER_PASSWORD = "<< Password for that user >>"</li>
 </ul>
